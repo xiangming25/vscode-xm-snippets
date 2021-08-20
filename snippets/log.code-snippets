@@ -1,0 +1,9 @@
+{
+  "log": {
+    "prefix": "mlog",
+		"body": [
+			"console.log('mlog:$1-------------: ', $1$2);",
+		],
+		"description": "console log with some horizontal line"
+  }
+}

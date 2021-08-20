@@ -3,6 +3,8 @@
     "displayName": "xm-snippets",
     "description": "some useful snippets",
     "version": "0.0.1",
+    "publisher": "xiangming",
+    "repository": "https://github.com/xiangming25/vscode-xm-snippets.git",
     "engines": {
         "vscode": "^1.59.0"
     },
@@ -13,7 +15,11 @@
         "snippets": [
             {
                 "language": "",
-                "path": "./snippets/snippets.code-snippets"
+                "path": "./snippets/log.code-snippets"
+            },
+            {
+                "language": "",
+                "path": "./snippets/react.code-snippets"
             }
         ]
     }
