@@ -1,5 +1,5 @@
 {
-  "mlog": {
+  "xm-log": {
     "prefix": "log",
 		"body": [
 			"console.log('log:$1-------------: ', $1$2);",

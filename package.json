@@ -20,6 +20,10 @@
             {
                 "language": "",
                 "path": "./snippets/react.code-snippets"
+            },
+            {
+                "language": "",
+                "path": "./snippets/javascript.code-snippets"
             }
         ]
     }
