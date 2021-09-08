@@ -1,9 +1,54 @@
 {
-  "log": {
-    "prefix": "mlog1",
+  "function-component-typescript": {
+    "prefix": "func",
 		"body": [
-			"console.log('mlog:$1--------1-----: ', $1$2);",
+			"import React, { FC, useEffect, useState } from 'react';",
+"",
+			"interface IProps {",
+			"	id: number;",
+			"}",
+"",
+			"const $Index: FC<IProps> = (props) => {",
+			"	const { id } = props;",
+			"	const [state, setState] = useState<string>();",
+"",
+			"	useEffect(() => {",
+			"		setState('');",
+			"	}, []);",
+"",
+			"	return (",
+			"		<div>",
+			"			{state}",
+			"			<p></p>",
+			"		</div>",
+			"	);",
+			"};",
+"",
+			"export default $Index;",
+
 		],
-		"description": "console log with some horizontal line"
-  }
+		"description": "react component for typescript"
+  },
+		"function-component-javascript": {
+			"prefix": "func",
+			"body": [
+				"import React, { useEffect, useState } from 'react';",
+	"",
+				"const $Index = () => {",
+				"	const [data, setData] = useState('');",
+	"",
+				"	useEffect(() => {",
+				"		setData('hello');",
+				"	}, []);",
+	"",
+				"	return <div>{data}</div>;",
+				"};",
+	"",
+				"export default $Index;",
+	
+	"",
+	
+		],
+		"description": "react component for javascript"
+	}
 }
