@@ -1,5 +1,7 @@
 ## 参考链接
 
+- [https://code.visualstudio.com/docs/editor/userdefinedsnippets](https://code.visualstudio.com/docs/editor/userdefinedsnippets)
+
 [https://liiked.github.io/VS-Code-Extension-Doc-ZH/#/working-with-extensions/publish-extension](https://liiked.github.io/VS-Code-Extension-Doc-ZH/#/working-with-extensions/publish-extension)
 
 ## 命令
