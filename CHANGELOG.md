@@ -6,6 +6,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## Released
 
+### [0.0.4] - 2021-09-08
+
+#### Add
+
+- react class component
+
 ### [0.0.3] - 2021-09-08
 
 #### Add
