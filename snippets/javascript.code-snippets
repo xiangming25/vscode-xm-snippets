@@ -20,42 +20,42 @@
   "xm-filter": {
     "prefix": ".filter",
     "body": [
-      ".filter(($item, index) => {$0}",
+      ".filter(($item, index) => {$0})",
     ],
     "description": "filter method for javascript"
   },
   "xm-find": {
     "prefix": ".find",
     "body": [
-      ".find(($item, index) => {$0}",
+      ".find(($item, index) => {$0})",
     ],
     "description": "find method for javascript"
   },
   "xm-findIndex": {
     "prefix": ".findIndex",
     "body": [
-      ".findIndex(($item, index) => {$0}",
+      ".findIndex(($item, index) => {$0})",
     ],
     "description": "findIndex method for javascript"
   },
   "xm-includes": {
     "prefix": ".includes",
     "body": [
-      ".includes(($item, index) => {$0}",
+      ".includes(($item, index) => {$0})",
     ],
     "description": "includes method for javascript"
   },
   "xm-every": {
     "prefix": ".every",
     "body": [
-      ".every(($item, index) => {$0}",
+      ".every(($item, index) => {$0})",
     ],
     "description": "every method for javascript"
   },
   "xm-some": {
     "prefix": ".some",
     "body": [
-      ".some(($item, index) => {$0}",
+      ".some(($item, index) => {$0})",
     ],
     "description": "some method for javascript"
   },

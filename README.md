@@ -6,12 +6,43 @@ some useful snippets
 
 shortcut | description
 --- | ---
-`log` | a `console.log` with some middle horizontal line
+`log` | `console.log('log:$1-------------: ', $1);`
+`.map` | `.map((item, index) => {})`
+`.forEach` | `.forEach((item, index) => {})`
+`.filter` | `.filter((item, index) => {})`
+`.find` | `.find((item, index) => {})`
+`.findIndex` | `.findIndex((item, index) => {})`
+`.includes` | `.includes((item, index) => {})`
+`.every` | `.every((item, index) => {})`
+`.some` | `.some((item, index) => {})`
+`.reduce` | `.reduce((accumulator, currentValue, index) => {}, initialValue)`
+`.reduceRight` | `.reduceRight((accumulator, currentValue, index) => {}, initialValue)`
+`switch` | `switch (key) { case value: break; default: break }`
+`for` | `for (let index = 0; index < array.length; index++) { const element = array[index] }`
 `func` | `react function component` both support `javascript` and `typescript`
 
-### log
 
-`console.log('log:$1-------------: ', $1);`
+### switch
+
+```
+switch (key) {
+  case value:
+    
+    break;
+
+  default:
+    break;
+}
+```
+
+### for
+
+```
+for (let index = 0; index < array.length; index++) {
+  const element = array[index];
+  
+}
+```
 
 ### func
 
@@ -62,13 +93,3 @@ const Index: FC<IProps> = (props) => {
 export default Index;
 
 ```
-
-## Release Notes
-
-### 0.0.1
-
-add console.log snippets
-
-### 0.0.2
-
-add react function component both support javascript and typescript
