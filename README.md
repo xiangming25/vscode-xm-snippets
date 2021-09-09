@@ -7,16 +7,16 @@ some useful snippets
 shortcut | description
 --- | ---
 `log` | `console.log('log:$1-------------: ', $1);`
-`map` | `map((item, index) => {})`
-`forEach` | `forEach((item, index) => {})`
-`filter` | `filter((item, index) => {})`
-`find` | `find((item, index) => {})`
-`findIndex` | `findIndex((item, index) => {})`
-`includes` | `includes((item, index) => {})`
-`every` | `every((item, index) => {})`
-`some` | `some((item, index) => {})`
-`reduce` | `reduce((accumulator, currentValue, index) => {}, initialValue)`
-`reduceRight` | `reduceRight((accumulator, currentValue, index) => {}, initialValue)`
+`map` | `array.map((item, index) => {})`
+`forEach` | `array.forEach((item, index) => {})`
+`filter` | `array.filter((item, index) => {})`
+`find` | `array.find((item, index) => {})`
+`findIndex` | `array.findIndex((item, index) => {})`
+`includes` | `array.includes((item, index) => {})`
+`every` | `array.every((item, index) => {})`
+`some` | `array.some((item, index) => {})`
+`reduce` | `array.reduce((accumulator, currentValue, index) => {}, initialValue)`
+`reduceRight` | `array.reduceRight((accumulator, currentValue, index) => {}, initialValue)`
 `switch` | `switch (key) { case value: break; default: break }`
 `for` | `for (let index = 0; index < array.length; index++) { const element = array[index] }`
 `func` | `react function component` both support `javascript` and `typescript`

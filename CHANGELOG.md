@@ -6,6 +6,12 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## Released
 
+### [0.0.5] - 2021-09-09
+
+#### Changed
+
+- update javascript snippets
+
 ### [0.0.4] - 2021-09-08
 
 #### Add

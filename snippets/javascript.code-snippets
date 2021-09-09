@@ -8,53 +8,53 @@
   },
   "xm-map": {
     "prefix": "map",
-    "body": ["map((${1:item}, index) => {", "\t$0", "})"],
+    "body": ["${1:array}.map((${2:item}, index) => {", "\t$0", "})"],
     "description": "map method for javascript"
   },
   "xm-forEach": {
     "prefix": "forEach",
-    "body": ["forEach((${1:item}, index) => {","\t$0","})"],
+    "body": ["${1:array}.forEach((${2:item}, index) => {","\t$0","})"],
     "description": "forEach method for javascript"
   },
   "xm-filter": {
     "prefix": "filter",
-    "body": ["filter((${1:item}, index) => {$0})"],
+    "body": ["${1:array}.filter((${2:item}, index) => {$0})"],
     "description": "filter method for javascript"
   },
   "xm-find": {
     "prefix": "find",
-    "body": ["find((${1:item}, index) => {$0})"],
+    "body": ["${1:array}.find((${2:item}, index) => {$0})"],
     "description": "find method for javascript"
   },
   "xm-findIndex": {
     "prefix": "findIndex",
-    "body": ["findIndex((${1:item}, index) => {$0})"],
+    "body": ["${1:array}.findIndex((${2:item}, index) => {$0})"],
     "description": "findIndex method for javascript"
   },
   "xm-includes": {
     "prefix": "includes",
-    "body": ["includes((${1:item}, index) => {$0})"],
+    "body": ["${1:array}.includes((${2:item}, index) => {$0})"],
     "description": "includes method for javascript"
   },
   "xm-every": {
     "prefix": "every",
-    "body": ["every((${1:item}, index) => {$0})"],
+    "body": ["${1:array}.every((${2:item}, index) => {$0})"],
     "description": "every method for javascript"
   },
   "xm-some": {
     "prefix": "some",
-    "body": ["some((${1:item}, index) => {$0})"],
+    "body": ["${1:array}.some((${2:item}, index) => {$0})"],
     "description": "some method for javascript"
   },
   "xm-reduce": {
     "prefix": "reduce",
-    "body": ["reduce((accumulator, currentValue, index) => {", "\t", "}, $initialValue)"],
+    "body": ["${1:array}.reduce((accumulator, currentValue, index) => {", "\t", "}, ${2:initialValue})"],
     "description": "reduce method for javascript"
   },
   "xm-reduceRight": {
     "prefix": "reduceRight",
     "body": [
-      "reduceRight((accumulator, currentValue, index) => {","\t","}, $initialValue)"
+      "reduceRight((accumulator, currentValue, index) => {","\t","}, ${2:initialValue})"
     ],
     "description": "reduceRight method for javascript"
   },
