@@ -1,103 +1,84 @@
 {
+  "xm-log": {
+    "prefix": "log",
+		"body": [
+			"console.log('log:$1-------------: ', $1$2);",
+		],
+		"description": "console log with some horizontal line"
+  },
   "xm-map": {
-    "prefix": ".map",
-    "body": [
-      ".map((item, index) => {",
-"  $1",
-      "})",
-    ],
+    "prefix": "map",
+    "body": ["map((${1:item}, index) => {", "\t$0", "})"],
     "description": "map method for javascript"
   },
   "xm-forEach": {
-    "prefix": ".forEach",
-    "body": [
-      ".forEach((item, index) => {",
-"  $1",
-      "})",
-    ],
+    "prefix": "forEach",
+    "body": ["forEach((${1:item}, index) => {","\t$0","})"],
     "description": "forEach method for javascript"
   },
   "xm-filter": {
-    "prefix": ".filter",
-    "body": [
-      ".filter(($item, index) => {$0})",
-    ],
+    "prefix": "filter",
+    "body": ["filter((${1:item}, index) => {$0})"],
     "description": "filter method for javascript"
   },
   "xm-find": {
-    "prefix": ".find",
-    "body": [
-      ".find(($item, index) => {$0})",
-    ],
+    "prefix": "find",
+    "body": ["find((${1:item}, index) => {$0})"],
     "description": "find method for javascript"
   },
   "xm-findIndex": {
-    "prefix": ".findIndex",
-    "body": [
-      ".findIndex(($item, index) => {$0})",
-    ],
+    "prefix": "findIndex",
+    "body": ["findIndex((${1:item}, index) => {$0})"],
     "description": "findIndex method for javascript"
   },
   "xm-includes": {
-    "prefix": ".includes",
-    "body": [
-      ".includes(($item, index) => {$0})",
-    ],
+    "prefix": "includes",
+    "body": ["includes((${1:item}, index) => {$0})"],
     "description": "includes method for javascript"
   },
   "xm-every": {
-    "prefix": ".every",
-    "body": [
-      ".every(($item, index) => {$0})",
-    ],
+    "prefix": "every",
+    "body": ["every((${1:item}, index) => {$0})"],
     "description": "every method for javascript"
   },
   "xm-some": {
-    "prefix": ".some",
-    "body": [
-      ".some(($item, index) => {$0})",
-    ],
+    "prefix": "some",
+    "body": ["some((${1:item}, index) => {$0})"],
     "description": "some method for javascript"
   },
   "xm-reduce": {
-    "prefix": ".reduce",
-    "body": [
-      ".reduce((accumulator, currentValue, index) => {",
-      "",
-      "}, $initialValue)"
-    ],
+    "prefix": "reduce",
+    "body": ["reduce((accumulator, currentValue, index) => {", "\t", "}, $initialValue)"],
     "description": "reduce method for javascript"
   },
   "xm-reduceRight": {
-    "prefix": ".reduceRight",
+    "prefix": "reduceRight",
     "body": [
-      ".reduceRight((accumulator, currentValue, index) => {",
-      "",
-      "}, $initialValue)"
+      "reduceRight((accumulator, currentValue, index) => {","\t","}, $initialValue)"
     ],
     "description": "reduceRight method for javascript"
   },
   "xm-switch": {
-    "prefix": "switch ",
+    "prefix": "switch",
     "body": [
       "switch ($key) {",
-      "  case $value:",
-      "    ",
-      "    break;",
-      "",
-      "  default:",
-      "    break;",
-      "}"
+      "\tcase $value:",
+      "\t",
+      "\t  break;",
+      "\t",
+      "\tdefault:",
+      "\t  break;",
+      "\t}"
     ],
     "description": "switch method for javascript"
   },
   "xm-for": {
-    "prefix": "for ",
+    "prefix": "for",
     "body": [
       "for (let $index = 0; $index < $array.length; $index++) {",
-      "  const element = $array[$index];",
-      "  $0",
-      "}",
+      "\tconst element = $array[$index];",
+      "\t$0",
+      "\t}",
     ],
     "description": "for method for javascript"
   },

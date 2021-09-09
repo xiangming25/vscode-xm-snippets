@@ -15,10 +15,6 @@
         "snippets": [
             {
                 "language": "",
-                "path": "./snippets/log.code-snippets"
-            },
-            {
-                "language": "",
                 "path": "./snippets/react.code-snippets"
             },
             {

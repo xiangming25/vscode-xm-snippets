@@ -1,9 +1,0 @@
-{
-  "xm-log": {
-    "prefix": "log",
-		"body": [
-			"console.log('log:$1-------------: ', $1$2);",
-		],
-		"description": "console log with some horizontal line"
-  }
-}
