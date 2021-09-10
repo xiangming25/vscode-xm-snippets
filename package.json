@@ -1,8 +1,8 @@
 {
     "name": "xm-snippets",
     "displayName": "xm-snippets",
-    "description": "some useful snippets",
-    "version": "0.0.5",
+    "description": "some useful snippets for front-end",
+    "version": "0.0.6",
     "publisher": "xiangming",
     "repository": "https://github.com/xiangming25/vscode-xm-snippets.git",
     "engines": {

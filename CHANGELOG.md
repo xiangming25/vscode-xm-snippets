@@ -6,6 +6,14 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## Released
 
+### [0.0.6] - 2021-09-10
+
+#### Add
+
+- object snippets
+- promise snippets
+- JSON snippets
+
 ### [0.0.5] - 2021-09-09
 
 #### Changed

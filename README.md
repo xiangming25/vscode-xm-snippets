@@ -1,12 +1,19 @@
 # xm-snippets README
 
-some useful snippets
+some useful snippets for front-end
 
 ## Features
+
+### Log
 
 shortcut | description
 --- | ---
 `log` | `console.log('log:$1-------------: ', $1);`
+
+### Array
+
+shortcut | description
+--- | ---
 `map` | `array.map((item, index) => {})`
 `forEach` | `array.forEach((item, index) => {})`
 `filter` | `array.filter((item, index) => {})`
@@ -17,13 +24,36 @@ shortcut | description
 `some` | `array.some((item, index) => {})`
 `reduce` | `array.reduce((accumulator, currentValue, index) => {}, initialValue)`
 `reduceRight` | `array.reduceRight((accumulator, currentValue, index) => {}, initialValue)`
-`switch` | `switch (key) { case value: break; default: break }`
-`for` | `for (let index = 0; index < array.length; index++) { const element = array[index] }`
-`func` | `react function component` both support `javascript` and `typescript`
-`reactComponent` | `react class component`
 
+### Object
 
-### switch
+shortcut | description
+--- | ---
+`keys` | `Object.keys(obj)`
+`values` | `Object.values(obj)`
+`assign` | `Object.assign({}, obj)`
+`freeze` | `Object.freeze(obj)`
+
+### Promise
+
+shortcut | description
+--- | ---
+`promise` | `new Promise((resolve, reject) => {})`
+`resolve` | `Promise.resolve()`
+`reject` | `Promise.reject()`
+`race` | `Promise.race()`
+`all` | `Promise.all([])`
+
+### JSON
+
+shortcut | description
+--- | ---
+`stringify` | `JSON.stringify()`
+`parse` | `JSON.parse()`
+
+### Others
+
+#### switch
 
 ```
 switch (key) {
@@ -36,7 +66,7 @@ switch (key) {
 }
 ```
 
-### for
+#### for
 
 ```
 for (let index = 0; index < array.length; index++) {
@@ -45,9 +75,7 @@ for (let index = 0; index < array.length; index++) {
 }
 ```
 
-### func
-
-#### for javascript
+#### func (component for javascript)
 
 ```
 import React, { useEffect, useState } from 'react';
@@ -66,7 +94,7 @@ export default Index;
 
 ```
 
-#### for typescript
+#### func (component for typescript)
 
 ```
 import React, { FC, useEffect, useState } from 'react';
@@ -95,7 +123,7 @@ export default Index;
 
 ```
 
-### reactComponent
+#### reactComponent (component for class)
 
 ```
 import React, { Component } from 'react';
