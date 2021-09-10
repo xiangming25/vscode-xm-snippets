@@ -5,6 +5,7 @@
     "version": "0.0.6",
     "publisher": "xiangming",
     "repository": "https://github.com/xiangming25/vscode-xm-snippets.git",
+    "icon": "images/logo.png",
     "engines": {
         "vscode": "^1.59.0"
     },
