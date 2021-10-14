@@ -4,10 +4,9 @@
 		"body": [
 			"import React, { FC, useEffect, useState } from 'react';",
 "",
-			"interface IProps {",
-			"}",
+			"interface IProps {}",
 "",
-			"const ${TM_FILENAME_BASE: Index}$1: FC<IProps> = (props) => {",
+			"const ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}: FC<IProps> = (props) => {",
 			"\tconst [state, setState] = useState<string>();",
 "",
 			"\tuseEffect(() => {",
@@ -21,7 +20,7 @@
 			"\t);",
 			"};",
 "",
-			"export default ${TM_FILENAME_BASE: Index}$1;",
+			"export default ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}};",
 
 		],
 		"description": "react component for typescript"
@@ -31,7 +30,7 @@
 			"body": [
 				"import React, { useEffect, useState } from 'react';",
 	"",
-				"const ${TM_FILENAME_BASE: Index}$1 = () => {",
+				"const ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}} = () => {",
 				"\tconst [state, setState] = useState('');",
 	"",
 				"\tuseEffect(() => {",
@@ -45,7 +44,7 @@
 				"\t);",
 				"};",
 	"",
-				"export default ${TM_FILENAME_BASE: Index}$1;",
+				"export default ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}};",
 	
 	"",
 	
@@ -58,7 +57,7 @@
 			"import React, { Component } from 'react';",
 			"import PropTypes from 'prop-types';",
 "",
-			"export default class $Index extends Component {",
+			"export default class ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}} extends Component {",
 			"\tstatic propTypes = {};",
 "",
 			"\tconstructor(props) {",
@@ -73,12 +72,6 @@
 			"\tcomponentDidMount() {",
 			"\t\t// do something",
 			"\t}",
-"",
-			"\tshouldComponentUpdate(nextProps, nextState) {}",
-"",
-			"\tgetSnapshotBeforeUpdate(prevProps, prevState) {}",
-"",
-			"\tcomponentDidUpdate(prevProps, prevState, snapshot) {}",
 "",
 			"\tcomponentWillUnmount() {",
 			"\t\t// do something",
