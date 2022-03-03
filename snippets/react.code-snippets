@@ -1,6 +1,6 @@
 {
   "destructuring-hooks-props": {
-		"scope": "javascript,typescript",
+		"scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "dpf",
 		"body": [
 			"const { $1 } = props"
@@ -8,7 +8,7 @@
 		"description": "解构 Hooks 的 props"
   },
   "destructuring-class-props": {
-		"scope": "javascript,typescript",
+		"scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "dpc",
 		"body": [
 			"const { $1 } = this.props"
@@ -16,7 +16,7 @@
 		"description": "解构 class 的 props "
   },
   "destructuring-class-state": {
-		"scope": "javascript,typescript",
+		"scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "dsc",
 		"body": [
 			"const { $1 } = this.state"
@@ -24,7 +24,7 @@
 		"description": "解构 class 的 state"
   },
   "destructuring-object": {
-		"scope": "javascript,typescript",
+		"scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "do",
 		"body": [
 			"const { ${2:value} } = ${1:objectName}"
@@ -32,7 +32,7 @@
 		"description": "解构对象"
   },
   "destructuring-array": {
-		"scope": "javascript,typescript",
+		"scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "da",
 		"body": [
 			"const [ ${2:value} ] = ${1:arrayName}"
