@@ -4,6 +4,17 @@ some useful snippets for front-end
 
 ## Features
 
+### js
+
+shortcut | description
+--- | ---
+`dpf` | `const { $1 } = props`
+`dpc` | `const { $1 } = this.props`
+`dsc` | `const { $1 } = this.state`
+`do` | `const { value } = objectName`
+`da` | `const [ value ] = arrayName`
+
+
 ### Log
 
 shortcut | description

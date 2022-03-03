@@ -6,6 +6,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## Released
 
+### [0.0.9] - 2022-03-03
+
+添加常见的解构片段
+
 ### [0.0.8] - 2022-01-26
 
 修改自动生成的 class 名字首字母为大写
