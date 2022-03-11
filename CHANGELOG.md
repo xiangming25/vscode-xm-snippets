@@ -6,6 +6,10 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## Released
 
+### [0.1.1] - 2022-03-11
+
+更新 React 组件作用域
+
 ### [0.0.9-0.1.0] - 2022-03-03
 
 添加常见的解构片段

@@ -1,7 +1,7 @@
 {
   "destructuring-hooks-props": {
 		"scope": "javascript,typescript,javascriptreact,typescriptreact",
-    "prefix": "dpf",
+    "prefix": "dp",
 		"body": [
 			"const { $1 } = props"
 		],
@@ -40,6 +40,7 @@
 		"description": "解构对象"
   },
   "function-component-typescript": {
+		"scope": "typescript,typescriptreact",
     "prefix": "func",
 		"body": [
 			"import React, { FC, useEffect, useState } from 'react';",
@@ -50,7 +51,7 @@
 			"\tconst [state, setState] = useState<string>();",
 "",
 			"\tuseEffect(() => {",
-			"\t\tsetState('new Date')",
+			"\t\tsetState('new Data')",
 			"\t}, []);",
 "",
 			"\treturn (",
@@ -66,6 +67,7 @@
 		"description": "react component for typescript"
   },
 		"function-component-javascript": {
+			"scope": "javascript,javascriptreact",
 			"prefix": "func",
 			"body": [
 				"import React, { useEffect, useState } from 'react';",
@@ -74,7 +76,7 @@
 				"\tconst [state, setState] = useState('');",
 	"",
 				"\tuseEffect(() => {",
-				"\t\tsetState('new Date')",
+				"\t\tsetState('new Data')",
 				"\t}, []);",
 	"",
 				"\treturn (",
