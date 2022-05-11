@@ -4,11 +4,18 @@ some useful snippets for front-end
 
 ## Features
 
+### common
+
+shortcut | description
+--- | ---
+`todo` | `// TODO: xm [modify|delete]`
+
+
 ### js
 
 shortcut | description
 --- | ---
-`dpf` | `const { $1 } = props`
+`dp` | `const { $1 } = props`
 `dpc` | `const { $1 } = this.props`
 `dsc` | `const { $1 } = this.state`
 `do` | `const { value } = objectName`

@@ -1,0 +1,9 @@
+{
+  "todo": {
+		"prefix": "todo",
+		"body": [
+			"// TODO: xm ${1|modify,delete|} $0",
+		],
+		"description": "todo snippets"
+	}
+}
