@@ -10,6 +10,6 @@
 
 ## plugin 发布地址
 
-[https://dev.azure.com/xiangming25/vscode-plugins](https://dev.azure.com/xiangming25/vscode-plugins)
-
 [https://marketplace.visualstudio.com/manage/publishers/xiangming](https://marketplace.visualstudio.com/manage/publishers/xiangming)
+
+[https://dev.azure.com/xiangming25/vscode-plugins](https://dev.azure.com/xiangming25/vscode-plugins)
