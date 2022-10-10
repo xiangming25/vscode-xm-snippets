@@ -99,13 +99,13 @@ for (let index = 0; index < array.length; index++) {
 import React, { useEffect, useState } from 'react';
 
 const Index = () => {
-  const [data, setData] = useState('');
 
-  useEffect(() => {
-    setData('hello');
-  }, []);
+  useEffect(() => {}, []);
 
-  return <div>{data}</div>;
+  return (
+    <section>
+    </section>
+  );
 };
 
 export default Index;
@@ -118,22 +118,16 @@ export default Index;
 import React, { FC, useEffect, useState } from 'react';
 
 interface IProps {
-  id: number;
 }
 
 const Index: FC<IProps> = (props) => {
-  const { id } = props;
-  const [state, setState] = useState<string>();
+  const {} = props;
 
-  useEffect(() => {
-    setState('');
-  }, []);
+  useEffect(() => {}, []);
 
   return (
-    <div>
-      {state}
-      <p></p>
-    </div>
+    <section>
+    </section>
   );
 };
 
