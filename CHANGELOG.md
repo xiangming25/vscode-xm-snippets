@@ -6,6 +6,11 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ## Released
 
+### [0.1.4] - 2022-03-11
+
+- 简化 `func` 代码片段
+- 添加 `todo` 和 `divide-line`、`line-divide` 代码片段
+
 ### [0.1.1] - 2022-03-11
 
 更新 React 组件作用域

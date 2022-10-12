@@ -28,6 +28,12 @@ shortcut | description
 --- | ---
 `log` | `console.log('log:$1-------------: ', $1);`
 
+### divide line
+
+shortcut | description
+--- | ---
+`divide-line`、`line-divide` | `// ==============================分隔线==============================`
+
 ### Array
 
 shortcut | description

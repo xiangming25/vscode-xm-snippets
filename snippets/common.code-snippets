@@ -5,5 +5,13 @@
 			"// TODO: xm ${1|modify,delete|} $0",
 		],
 		"description": "todo snippets"
+	},
+  "divide line": {
+		"prefix": ["divide-line", "line-divide"],
+		"body": [
+			"// ==============================分隔线==============================",
+			"${0}",
+		],
+		"description": "分隔线"
 	}
 }
