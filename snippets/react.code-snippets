@@ -186,7 +186,7 @@
 		"body": [
 			"useImperativeHandle(ref, () => ({",
 			"\t$1",
-			"}));",
+			"}), []);",
 		],
 		"description": "react hooks useRef"
 	},

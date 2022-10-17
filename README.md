@@ -142,5 +142,5 @@ const $1Ref = useRef($0);
 ```
 useImperativeHandle(ref, () => ({
 
-}));
+}), []);
 ```
