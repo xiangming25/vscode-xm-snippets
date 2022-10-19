@@ -8,6 +8,15 @@
 		],
 		"description": "todo snippets"
 	},
+  "fixme": {
+		"prefix": ["fixme"],
+		"body": [
+			// 给第二个输入的最后一位添加一个空格
+			// 参考链接：https://code.visualstudio.com/docs/editor/userdefinedsnippets#_variables
+			"// FIXME: ==== ${1:待修复} ====$0",
+		],
+		"description": "待修复注释代码片段"
+	},
 
 	// ----------------------------log-----------------------------------
   "log": {
