@@ -2,7 +2,9 @@
   "todo": {
 		"prefix": "todo",
 		"body": [
-			"// TODO: xm ${1|modify,delete|} $0",
+			// 给第二个输入的最后一位添加一个空格
+			// 参考链接：https://code.visualstudio.com/docs/editor/userdefinedsnippets#_variables
+			"// TODO: ==== ${1|modify,delete|} ${2/(?=$)$/${1: }/}====$0",
 		],
 		"description": "todo snippets"
 	},

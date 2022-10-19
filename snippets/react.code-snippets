@@ -27,7 +27,7 @@
 		"scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "do",
 		"body": [
-			"const { ${0:value} } = ${1:objectName};"
+			"const { ${0:value} } = ${1:$CLIPBOARD};"
 		],
 		"description": "解构对象"
   },
@@ -35,9 +35,9 @@
 		"scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "da",
 		"body": [
-			"const [ ${0:value} ] = ${1:arrayName};"
+			"const [ ${0:value} ] = ${1:$CLIPBOARD};"
 		],
-		"description": "解构对象"
+		"description": "解构数组"
   },
   "function-component-typescript": {
 		"scope": "typescript,typescriptreact",
