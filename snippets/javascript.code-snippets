@@ -1,135 +1,57 @@
 {
-  // ----------------------------log-----------------------------------
-  "log": {
-    "prefix": "log",
-		"body": [
-			"console.log('log:$1-------------: ', $1$0);",
-		],
-		"description": "console log with some horizontal line"
-  },
-  // ----------------------------array-----------------------------------
-  "map": {
-    "prefix": "map",
-    "body": ["${1:array}.map((${2:item}, index) => {", "\t$0", "})"],
-    "description": "map method for javascript"
-  },
-  "forEach": {
-    "prefix": "forEach",
-    "body": ["${1:array}.forEach((${2:item}, index) => {","\t$0","})"],
-    "description": "forEach method for javascript"
-  },
-  "filter": {
-    "prefix": "filter",
-    "body": ["${1:array}.filter((${2:item}, index) => {$0})"],
-    "description": "filter method for javascript"
-  },
-  "find": {
-    "prefix": "find",
-    "body": ["${1:array}.find((${2:item}, index) => {$0})"],
-    "description": "find method for javascript"
-  },
-  "findIndex": {
-    "prefix": "findIndex",
-    "body": ["${1:array}.findIndex((${2:item}, index) => {$0})"],
-    "description": "findIndex method for javascript"
-  },
-  "includes": {
-    "prefix": "includes",
-    "body": ["${1:array}.includes((${2:item}, index) => {$0})"],
-    "description": "includes method for javascript"
-  },
-  "every": {
-    "prefix": "every",
-    "body": ["${1:array}.every((${2:item}, index) => {$0})"],
-    "description": "every method for javascript"
-  },
-  "some": {
-    "prefix": "some",
-    "body": ["${1:array}.some((${2:item}, index) => {$0})"],
-    "description": "some method for javascript"
-  },
-  "reduce": {
-    "prefix": "reduce",
-    "body": ["${1:array}.reduce((accumulator, currentValue, index) => {", "\t", "}, ${2:initialValue})"],
-    "description": "reduce method for javascript"
-  },
-  "reduceRight": {
-    "prefix": "reduceRight",
-    "body": [
-      "reduceRight((accumulator, currentValue, index) => {","\t","}, ${2:initialValue})"
-    ],
-    "description": "reduceRight method for javascript"
-  },
   // ----------------------------object-----------------------------------
   "keys": {
     "prefix": "keys",
-    "body": ["Object.keys(${1:obj})"]
+    "body": ["Object.keys(${0:obj})"]
   },
   "values": {
     "prefix": "values",
-    "body": ["Object.values(${1:obj})"]
+    "body": ["Object.values(${0:obj})"]
   },
   "assign": {
     "prefix": "assign",
-    "body": ["Object.assign({}, ${1:obj})"]
+    "body": ["Object.assign({}, ${0:obj})"]
   },
   "freeze": {
     "prefix": "freeze",
-    "body": ["Object.freeze(${1:obj})"]
+    "body": ["Object.freeze(${0:obj})"]
   },
   // ----------------------------promise-----------------------------------
   "promise": {
     "prefix": "promise",
-    "body": ["new Promise((resolve, reject) => {", "\t$1", "})"]
+    "body": [
+      "new Promise((resolve, reject) => {",
+      "\t$0",
+      "})"
+    ]
   },
   "resolve": {
     "prefix": "resolve",
-    "body": ["Promise.resolve($1)"]
+    "body": ["Promise.resolve($0)"]
   },
   "reject": {
     "prefix": "reject",
-    "body": ["Promise.reject($1)"]
+    "body": ["Promise.reject($0)"]
   },
   "race": {
     "prefix": "race",
-    "body": ["Promise.race($1)"]
+    "body": ["Promise.race($0)"]
   },
   "all": {
     "prefix": "all",
-    "body": ["Promise.all([", "\t$1", "])"]
+    "body": [
+      "Promise.all([",
+      "\t$0",
+      "])"
+    ]
   },
   // ----------------------------JSON-----------------------------------
   "stringify": {
     "prefix": "stringify",
-    "body": ["JSON.stringify($1)"]
+    "body": ["JSON.stringify($0)"]
   },
   "parse": {
     "prefix": "parse",
-    "body": ["JSON.parse($1)"]
-  },
-  // ----------------------------others-----------------------------------
-  "switch": {
-    "prefix": "switch",
-    "body": [
-      "switch ($key) {",
-      "\tcase $value:",
-      "\t",
-      "\t  break;",
-      "\t",
-      "\tdefault:",
-      "\t  break;",
-      "}"
-    ],
-    "description": "switch method for javascript"
-  },
-  "for": {
-    "prefix": "for",
-    "body": [
-      "for (let $index = 0; $index < $array.length; $index++) {",
-      "\tconst element = $array[$index];",
-      "\t$0",
-      "}",
-    ],
-    "description": "for method for javascript"
+    "body": ["JSON.parse($0)"]
   },
 }

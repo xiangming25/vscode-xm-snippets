@@ -8,6 +8,16 @@
 		],
 		"description": "todo snippets"
 	},
+
+	// ----------------------------log-----------------------------------
+  "log": {
+    "prefix": "log",
+		"body": [
+			"console.log('log:$1-------------: ', $1$0);",
+		],
+		"description": "console log with some horizontal line"
+  },
+
   "divide line": {
 		"prefix": ["divide-line", "line-divide"],
 		"body": [
@@ -15,6 +25,7 @@
 		],
 		"description": "分隔线"
 	},
+
   "comment line": {
 		"prefix": ["//", "/*"],
 		"body": [

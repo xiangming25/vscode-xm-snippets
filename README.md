@@ -7,8 +7,23 @@ shortcut | description
 `divide-line`、`line-divide` | `// ==============================分隔线==============================`
 `//、/*` | `/** content */`
 
+## javascript
 
-## js
+shortcut | description
+--- | ---
+`keys` | `Object.keys(obj)`
+`values` | `Object.values(obj)`
+`assign` | `Object.assign({}, obj)`
+`freeze` | `Object.freeze(obj)`
+`promise` | `new Promise((resolve, reject) => {})`
+`resolve` | `Promise.resolve()`
+`reject` | `Promise.reject()`
+`race` | `Promise.race()`
+`all` | `Promise.all([])`
+`stringify` | `JSON.stringify()`
+`parse` | `JSON.parse()`
+
+## React
 
 shortcut | description
 --- | ---
@@ -17,8 +32,6 @@ shortcut | description
 `dsc` | `const { value } = this.state`
 `do` | `const { value } = objectName`
 `da` | `const [ value ] = arrayName`
-
-## React
 
 ### func (component for javascript)
 
