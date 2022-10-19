@@ -3,7 +3,7 @@
 		"scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "dp",
 		"body": [
-			"const { $1 } = props"
+			"const { $0 } = props;"
 		],
 		"description": "解构 Hooks 的 props"
   },
@@ -11,7 +11,7 @@
 		"scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "dpc",
 		"body": [
-			"const { $1 } = this.props"
+			"const { $0 } = this.props;"
 		],
 		"description": "解构 class 的 props "
   },
@@ -19,7 +19,7 @@
 		"scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "dsc",
 		"body": [
-			"const { $1 } = this.state"
+			"const { $0 } = this.state;"
 		],
 		"description": "解构 class 的 state"
   },
@@ -27,7 +27,7 @@
 		"scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "do",
 		"body": [
-			"const { ${2:value} } = ${1:objectName}"
+			"const { ${0:value} } = ${1:objectName};"
 		],
 		"description": "解构对象"
   },
@@ -35,7 +35,7 @@
 		"scope": "javascript,typescript,javascriptreact,typescriptreact",
     "prefix": "da",
 		"body": [
-			"const [ ${2:value} ] = ${1:arrayName}"
+			"const [ ${0:value} ] = ${1:arrayName};"
 		],
 		"description": "解构对象"
   },
@@ -54,6 +54,7 @@
 "",
 			"\treturn (",
 			"\t\t<section>",
+			"\t\t\t$0",
 			"\t\t</section>",
 			"\t);",
 			"};",
@@ -76,6 +77,7 @@
 "",
 				"\treturn (",
 				"\t\t<section>",
+				"\t\t\t$0",
 				"\t\t</section>",
 				"\t);",
 				"};",
@@ -124,7 +126,7 @@
 		"prefix": "useEffect",
 		"body": [
 			"useEffect(() => {",
-"\t$1",
+"\t$0",
 			"}, []);",
 		],
 		"description": "react hooks useEffect"
@@ -134,7 +136,7 @@
 		"prefix": "useCallback",
 		"body": [
 			"useCallback(() => {",
-"\t$1",
+"\t$0",
 			"}, []);",
 		],
 		"description": "react hooks useCallback"
@@ -143,7 +145,7 @@
 		"scope": "javascript,javascriptreact,typescript,typescriptreact",
 		"prefix": "useMemo",
 		"body": [
-			"useMemo(() => {$1}, []);",
+			"useMemo(() => {$0}, []);",
 		],
 		"description": "react hooks useMemo"
 	},
@@ -185,7 +187,7 @@
 		"prefix": "useImperativeHandle",
 		"body": [
 			"useImperativeHandle(ref, () => ({",
-			"\t$1",
+			"\t$0",
 			"}), []);",
 		],
 		"description": "react hooks useRef"
