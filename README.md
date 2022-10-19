@@ -2,7 +2,7 @@
 
 shortcut | description
 --- | ---
-`todo` | `// TODO: xm [modify|delete]`
+`todo` | `// TODO: ==== modify - delete ====`
 `log` | `console.log('log:$1-------------: ', $1);`
 `divide-line`、`line-divide` | `// ==============================分隔线==============================`
 
@@ -11,9 +11,9 @@ shortcut | description
 
 shortcut | description
 --- | ---
-`dp` | `const { $1 } = props`
-`dpc` | `const { $1 } = this.props`
-`dsc` | `const { $1 } = this.state`
+`dp` | `const { value } = props`
+`dpc` | `const { value } = this.props`
+`dsc` | `const { value } = this.state`
 `do` | `const { value } = objectName`
 `da` | `const [ value ] = arrayName`
 
