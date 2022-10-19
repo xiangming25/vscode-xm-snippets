@@ -5,6 +5,7 @@ shortcut | description
 `todo` | `// TODO: ==== modify - delete ====`
 `log` | `console.log('log:$1-------------: ', $1);`
 `divide-line`、`line-divide` | `// ==============================分隔线==============================`
+`//、/*` | `/** content */`
 
 
 ## js
