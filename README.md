@@ -8,11 +8,10 @@ shortcut | description
 `divide-line`、`line-divide` | `// ======================分隔线======================`
 `//、/*` | `/** content */`
 
-## javascript
+<!-- ## javascript
 
 shortcut | description
 --- | ---
-`keys` | `Object.keys(obj)`
 `values` | `Object.values(obj)`
 `assign` | `Object.assign({}, obj)`
 `freeze` | `Object.freeze(obj)`
@@ -22,7 +21,7 @@ shortcut | description
 `race` | `Promise.race()`
 `all` | `Promise.all([])`
 `stringify` | `JSON.stringify()`
-`parse` | `JSON.parse()`
+`parse` | `JSON.parse()` -->
 
 ## React
 

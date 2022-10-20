@@ -1,9 +1,9 @@
 {
   // ----------------------------object-----------------------------------
-  "keys": {
-    "prefix": "keys",
-    "body": ["Object.keys(${0:obj})"]
-  },
+  // "keys": {
+  //   "prefix": "keys",
+  //   "body": ["Object.keys(${0:obj})"]
+  // },
   "values": {
     "prefix": "values",
     "body": ["Object.values(${0:obj})"]

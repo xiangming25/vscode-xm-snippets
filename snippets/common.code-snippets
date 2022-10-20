@@ -4,7 +4,7 @@
 		"body": [
 			// 给第二个输入的最后一位添加一个空格
 			// 参考链接：https://code.visualstudio.com/docs/editor/userdefinedsnippets#_variables
-			"// TODO: ==== ${1|modify,delete|} ${2/(?=$)$/${1: }/}====$0",
+			"// TODO: ======== ${1|modify,delete|} ${2/(?=$)$/${1: }/}========$0",
 		],
 		"description": "todo snippets"
 	},
@@ -13,7 +13,7 @@
 		"body": [
 			// 给第二个输入的最后一位添加一个空格
 			// 参考链接：https://code.visualstudio.com/docs/editor/userdefinedsnippets#_variables
-			"// FIXME: ==== ${1:待修复} ====$0",
+			"// FIXME: ======== ${1:待修复} ========0",
 		],
 		"description": "待修复注释代码片段"
 	},
@@ -30,7 +30,7 @@
   "divide line": {
 		"prefix": ["divide-line", "line-divide"],
 		"body": [
-			"// ======================分隔线======================",
+			"// ==============================${1:分隔线}==============================",
 		],
 		"description": "分隔线"
 	},
