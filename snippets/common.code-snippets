@@ -36,9 +36,16 @@
 	},
 
   "comment line": {
-		"prefix": ["//", "/*"],
+		"prefix": ["//", "/*", "、、、"],
 		"body": [
 			"/** $1 */$0",
+		],
+		"description": "注释"
+	},
+  "annotation": {
+		"prefix": ["、、"],
+		"body": [
+			"// $0",
 		],
 		"description": "注释"
 	},
