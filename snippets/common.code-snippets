@@ -22,7 +22,7 @@
   "log": {
     "prefix": "log",
 		"body": [
-			"console.log('log:$TM_LINE_NUMBER-------------: ', $0);",
+			"console.log('log:------$TM_LINE_NUMBER------: ', $0);",
 		],
 		"description": "console log with some horizontal line"
   },
