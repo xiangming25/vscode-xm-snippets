@@ -60,6 +60,23 @@
 			"export default ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}};",
 
 		],
+	},
+  "function-component-typescript-react17": {
+		"scope": "typescript,typescriptreact",
+    "prefix": "func7",
+		"body": [
+			"import { FC } from 'react';",
+"",
+			"interface IProps {}",
+"",
+			"const ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}}: FC<IProps> = (props) => {",
+			"\tconst {} = props;",
+"",
+			"\treturn <section></section>;",
+			"};",
+"",
+			"export default ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}};",
+		],
 		"description": "react component for typescript"
   },
 		"function-component-javascript": {
@@ -80,7 +97,7 @@
 				"\t);",
 				"};",
 "",
-	
+				"export default ${1:${TM_FILENAME_BASE/(.*)/${1:/pascalcase}/g}};",
 		],
 		"description": "react component for javascript"
 	},
