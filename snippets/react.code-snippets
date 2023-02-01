@@ -207,4 +207,14 @@
 		],
 		"description": "react hooks useRef"
 	},
+
+	// ==============================className==============================
+	"className-xm-snippet": {
+		"scope": "javascript,javascriptreact,typescript,typescriptreact",
+		"prefix": ["className"],
+		"body": [
+			"className={styles.$0}"
+		],
+		"description": "className 变量"
+	}
 }

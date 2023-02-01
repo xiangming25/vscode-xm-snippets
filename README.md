@@ -33,6 +33,7 @@ shortcut | description
 `dsc` | `const { value } = this.state`
 `do` | `const { value } = objectName`
 `da` | `const [ value ] = arrayName`
+`className` | `className={styles.}`
 
 ### func (component for javascript)
 
