@@ -4,7 +4,7 @@ shortcut | description
 --- | ---
 `todo` | `// TODO: ==== modify - delete ====`
 `fixme` | `// FIXME: ==== 待修复 ====`
-`log` | `console.log('log:------$lineNumber------: ', $0);`
+`log` | `console.log('log:------$1：$lineNumber------: ', $0);`
 `divide-line`、`line-divide` | `// ======================分隔线======================`
 `///`、`、、、` | `/**  */`
 ``、、` | `// `
